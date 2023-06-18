@@ -30,6 +30,7 @@ public class UserRequest {
         this.age = age;
     }
 
+    //toString()이 호출되면 UserRequest 가 리턴
     @Override
     public String toString() {
         return "UserRequest{" +
